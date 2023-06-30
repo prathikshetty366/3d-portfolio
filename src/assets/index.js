@@ -20,15 +20,21 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import ids from "./company/ids_logo.jpg"
+import fs from './company/FS.jpg'
+import ta from './company/TA.jpg'
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import bodycoat from "./bodycoat.png";
+import beatroute from "./beatroute.png";
+import repfab from "./repfabric.png"
+import SE from "./company/Se.png"
+
 
 export {
   logo,
@@ -59,4 +65,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  ids,
+  fs,
+  ta, bodycoat,
+  beatroute,
+  repfab, SE
+  
 };

@@ -23,6 +23,13 @@ import {
   jobit,
   tripguide,
   threejs,
+  ids,
+  fs,
+  ta,
+  bodycoat,
+  beatroute,
+  repfab,SE
+  
 } from "../assets";
 
 export const navLinks = [
@@ -45,16 +52,16 @@ const services = [
     title: "Web Developer",
     icon: web,
   },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
+  // {
+  //   title: "React Native Developer",
+  //   icon: mobile,
+  // },
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "UI/UX Designer",
     icon: creator,
   },
 ];
@@ -115,12 +122,38 @@ const technologies = [
 ];
 
 const experiences = [
+    {
+    title: "Full stack Developer",
+    company_name: "Simple Energy",
+    icon: SE,
+    iconBg: "#E6DEDD",
+    date: "March 2022 - Present",
+    points: [
+      "Developing and maintaining web applications using React.js and other AWS services.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+   {
+    title: "Web Developer",
+    company_name: "Tech active solns",
+    icon: ta,
+    iconBg: "#383E56",
+    date: "Oct 2021 - Feb 2022",
+    points: [
+      "Developing and maintaining web applications using React.js and Node.js.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    company_name: "Indea Designs System",
+    icon: ids,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "May 2021 - Sep 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,37 +162,11 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "React.js Developer",
+    company_name: "Filmyscoop pvt.ltd",
+    icon: fs,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "May 2020 - Apr 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -198,9 +205,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Car Service",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to search, book, and manage car services from bodycoat, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
         name: "react",
@@ -215,13 +222,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: bodycoat,
+    source_code_link: "https://www.bodycoat.in/",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "Beat Route",
+    description:"Beatroute is a first of its kind platform that allows beat producers to license their beats to a global audience and rappers to discover beats from Indian beat producers"
+    ,
     tags: [
       {
         name: "react",
@@ -236,13 +243,12 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: beatroute,
+    source_code_link: "https://beatroute.co/",
   },
   {
     name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    description:"This understand the complexities of multi-line selling. That’s why we created Repfabric,  and commission tracking tool uniquely tailored to the needs of manufacturer.",
     tags: [
       {
         name: "nextjs",
@@ -257,8 +263,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: repfab,
+    source_code_link: "https://repfabric.com/",
   },
 ];
 
