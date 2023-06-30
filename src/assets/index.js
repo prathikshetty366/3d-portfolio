@@ -33,7 +33,7 @@ import tripguide from "./tripguide.png";
 import bodycoat from "./bodycoat.png";
 import beatroute from "./beatroute.png";
 import repfab from "./repfabric.png"
-import SE from "./company/Se.png"
+import SE from "./company/SE.png"
 
 
 export {
